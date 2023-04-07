@@ -9,4 +9,5 @@ public interface UserService {
     void add(User user);
     void add1(Car car);
     List<User> listUsers();
+    List<User> select(String model,int series);
 }
